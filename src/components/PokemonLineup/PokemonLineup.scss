@@ -1,0 +1,28 @@
+@import '../../globalstyle/colors.scss';
+
+.pokemon-lineup {
+    width: 100%;
+    .lineup-title {
+        width: 100%;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+    }
+    .lineup-list {
+        margin: 30px 0 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        .lineup-panel {
+            &:first-of-type {
+                margin-left: 0;
+            }
+            &:nth-child(4n) {
+                margin-left: 0;
+            }
+            margin-bottom: 10px;
+            list-style: none;
+            flex: 0 0 31.333333%;
+            margin-left: 10px;
+        }
+    }
+}

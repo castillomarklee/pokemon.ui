@@ -1,0 +1,24 @@
+@import '../../../globalstyle/colors.scss';
+
+.pokemon-list-table {
+    border: 7px solid $shiny-red;
+    margin-top: 20px;
+    border-radius: 10px;
+    .title-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h5 {
+            margin-bottom: 0;
+        }
+        > img {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 246px;
+        }
+    }
+    .table-responsive {
+        height: 270px;
+    }
+}
